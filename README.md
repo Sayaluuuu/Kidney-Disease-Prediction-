@@ -1,0 +1,5 @@
+This project aims to build a predictive machine learning model for early detection of Chronic Kidney Disease (CKD) using patient health data.
+The dataset includes a combination of numerical and categorical clinical features, such as age, blood pressure, serum creatinine, hemoglobin, and presence of symptoms like anemia or diabetes.
+The data preprocessing pipeline involves handling missing values, encoding categorical variables, and scaling numerical features. Several machine learning models—including Logistic Regression, Decision Trees, Random Forest, Support Vector Machines, and Neural Networks—were trained and evaluated. 
+Model performance was assessed using key metrics such as accuracy, precision, recall, and F1-score. Additionally, hyperparameter tuning was performed using GridSearchCV to optimize model parameters and improve predictive accuracy.
+The final results demonstrate that ensemble methods (like Random Forest and Gradient Boosting) offer robust performance for CKD classification, making this workflow a useful tool in healthcare data analysis and early disease prediction.
